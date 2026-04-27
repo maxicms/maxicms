@@ -1,10 +1,8 @@
-<p>
-  <a href="https://maxicms.ru">
-    <img alt="MaxiCMS" src="https://maxicms.ru/templates/icms/images/logo.svg" />
-  </a>
-</p>
+# MaxiCMS
 
-#### Is a free open source CMS that allows you to build websites for any purpose.
+A free open source CMS that allows you to build websites for any purpose.
+
+This is a fork of [InstantCMS 2](https://github.com/instantsoft/icms2) with independent development.
 
 [![LICENSE](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](./LICENSE)
 ![PHP version](https://img.shields.io/badge/PHP->=v8.0-red.svg?php=8.0)
@@ -23,27 +21,28 @@
 * User management;
 * Easy-to-install core updates.
 
-## Requirements ##
+## Requirements
 
 * PHP 8.0+
 * GD, iconv, mbstring, simplexml, json and filter PHP extension
 * MySQL 5.0 or above, MariaDB and its support in PHP
 * Apache + mod_rewrite (or FallbackResource) or Nginx + converted .htaccess rules
 
-## Install MaxiCMS ##
+## Installation
 
-* Check the requirements.
-* How do you [install MaxiCMS](https://docs.maxicms.ru/manual/install)?
+1. Check the requirements
+2. Upload files to your server
+3. Navigate to `/install` in your browser
+4. Follow the installation wizard
 
-## Security Vulnerabilities ##
+## Security Vulnerabilities
 
-If you discover a security vulnerability within MaxiCMS, please open a draft security advisory. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability, please open a draft security advisory.
 
-## Licensing ##
+## Licensing
 
 This software is distributed under the GPL-2.0 license. Please read license.en.txt for information on the software availability and distribution.
 
-## Resources ##
+## Credits
 
-* [Official site](https://maxicms.ru/)
-* [Documentation](https://docs.maxicms.ru/)
+Based on [InstantCMS](https://github.com/instantsoft/icms2) project.
