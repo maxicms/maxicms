@@ -1,0 +1,33 @@
+{
+    "name": "maxicms/maxicms",
+    "description": "MaxiCMS - open source PHP content management system",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://maxicms.ru",
+    "support": {
+        "issues": "https://github.com/maxicms/maxicms/issues",
+        "source": "https://github.com/maxicms/maxicms"
+    },
+    "require": {
+        "php": ">=8.0.0",
+        "ext-mysqli": "*",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-session": "*",
+        "ext-filter": "*",
+        "ext-fileinfo": "*",
+        "ext-date": "*"
+    },
+    "suggest": {
+        "ext-redis": "For Redis caching support",
+        "ext-memcached": "For Memcached caching support",
+        "ext-zip": "For ZIP archive support",
+        "ext-curl": "For external API requests"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.0"
+        }
+    }
+}

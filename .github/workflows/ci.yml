@@ -1,0 +1,106 @@
+name: CI
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  lint:
+    name: PHP Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: mysqli, gd, json, mbstring, session, filter, fileinfo
+          coverage: none
+
+      - name: Lint PHP files
+        run: |
+          find /Users/maxisoft/Repos/maxicms -name '*.php' -not -path '*/vendor/*' -exec php -l {} \; 2>&1 | grep -v "No syntax errors"
+
+  code-style:
+    name: Code Style Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: mysqli, gd, json, mbstring, session, filter, fileinfo
+
+      - name: Check for debug code
+        run: |
+          echo "Checking for debug code (var_dump, print_r, die, exit)..."
+          ! grep -r --include='*.php' -E 'var_dump|print_r|die\(|exit\(' /Users/maxisoft/Repos/maxicms/system /Users/maxisoft/Repos/maxicms/templates /Users/maxisoft/Repos/maxicms/install 2>/dev/null | grep -v 'vendor'
+
+      - name: Check for TODO comments
+        run: |
+          echo "Checking for TODO comments..."
+          ! grep -r --include='*.php' 'TODO\|FIXME\|XXX' /Users/maxisoft/Repos/maxicms/system /Users/maxisoft/Repos/maxicms/templates /Users/maxisoft/Repos/maxicms/install 2>/dev/null | grep -v 'vendor'
+
+  test-structure:
+    name: Structure Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+
+      - name: Check required files exist
+        run: |
+          required_files=(
+            "index.php"
+            "bootstrap.php"
+            "system/core/core.php"
+            "system/core/database.php"
+            "system/core/model.php"
+            "install/index.php"
+          )
+          for file in "${required_files[@]}"; do
+            if [ ! -f "/Users/maxisoft/Repos/maxicms/$file" ]; then
+              echo "Missing required file: $file"
+              exit 1
+            fi
+          done
+          echo "All required files exist"
+
+      - name: Check update directory is deleted
+        run: |
+          if [ -d "/Users/maxisoft/Repos/maxicms/update" ]; then
+            echo "Update directory should be deleted"
+            exit 1
+          fi
+          echo "Update directory is correctly deleted"
+
+  security:
+    name: Security Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: mysqli, gd, json, mbstring, session, filter, fileinfo
+
+      - name: Check for SQL injection risks
+        run: |
+          echo "Basic check for potential SQL injection patterns..."
+          ! grep -r --include='*.php' -E '\$_GET\$_POST.*query|\$_GET\$_POST.*sql' /Users/maxisoft/Repos/maxicms/system /Users/maxisoft/Repos/maxicms/templates 2>/dev/null | grep -v 'vendor'
+
+      - name: Check for XSS risks in echo statements
+        run: |
+          echo "Basic check for potential XSS patterns..."
+          ! grep -r --include='*.php' -E 'echo\s+\$\w+\s*;' /Users/maxisoft/Repos/maxicms/system /Users/maxisoft/Repos/maxicms/templates 2>/dev/null | grep -v 'echo htmlspecialchars\|echo cmsBus' | head -5
