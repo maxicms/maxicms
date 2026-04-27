@@ -151,9 +151,9 @@ function get_version($show_date = false) {
 
 function html_bool_span($value, $condition) {
     if ($condition) {
-        return '<span class="positive">' . $value . '</span>';
+        return '<span class="status-icon success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg></span> ' . $value;
     } else {
-        return '<span class="negative">' . $value . '</span>';
+        return '<span class="status-icon error"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></span> ' . $value;
     }
 }
 

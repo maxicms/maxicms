@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Dark Mode Specific Overrides
+   ========================================================================== */
+
+/* Dark mode background patterns */
+[data-theme="dark"] body {
+    background-image: 
+        radial-gradient(ellipse at top, var(--bg-secondary) 0%, transparent 50%),
+        radial-gradient(ellipse at bottom right, var(--bg-tertiary) 0%, transparent 40%);
+    background-attachment: fixed;
+}
+
+/* Dark mode card glow effect */
+[data-theme="dark"] .install-card {
+    box-shadow: 
+        var(--shadow-lg),
+        0 0 60px rgba(77, 148, 255, 0.05);
+}
+
+/* Dark mode inputs glow */
+[data-theme="dark"] .form-input:focus,
+[data-theme="dark"] .form-select:focus,
+[data-theme="dark"] .form-textarea:focus {
+    box-shadow: 0 0 0 3px rgba(77, 148, 255, 0.2);
+}
+
+/* Dark mode logo */
+[data-theme="dark"] .install-header__logo svg,
+[data-theme="dark"] .welcome__logo svg {
+    filter: drop-shadow(0 0 8px rgba(77, 148, 255, 0.4));
+}
+
+/* Dark mode hover effects */
+[data-theme="dark"] .btn-primary {
+    box-shadow: 0 4px 12px rgba(77, 148, 255, 0.3);
+}
+
+[data-theme="dark"] .btn-primary:hover:not(:disabled) {
+    box-shadow: 0 6px 16px rgba(77, 148, 255, 0.4);
+}
+
+/* Dark mode scrollbar */
+[data-theme="dark"] ::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+    background: var(--border);
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* Transition for theme switch */
+body,
+.install-header,
+.install-footer,
+.install-card,
+.install-progress {
+    transition: 
+        background-color var(--transition-base),
+        border-color var(--transition-base),
+        box-shadow var(--transition-base);
+}

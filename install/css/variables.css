@@ -1,0 +1,77 @@
+:root {
+    /* Light theme (default) */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-tertiary: #e9ecef;
+    --bg-card: #ffffff;
+    --text-primary: #212529;
+    --text-secondary: #6c757d;
+    --text-muted: #adb5bd;
+    --accent: #0d6efd;
+    --accent-hover: #0b5ed7;
+    --accent-light: rgba(13, 110, 253, 0.1);
+    --success: #198754;
+    --success-light: rgba(25, 135, 84, 0.1);
+    --warning: #ffc107;
+    --warning-light: rgba(255, 193, 7, 0.15);
+    --danger: #dc3545;
+    --danger-light: rgba(220, 53, 69, 0.1);
+    --border: #dee2e6;
+    --border-light: #e9ecef;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --radius: 12px;
+    --radius-sm: 8px;
+    --radius-lg: 16px;
+
+    /* Typography */
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+
+    /* Transitions */
+    --transition-fast: 0.15s ease;
+    --transition-base: 0.2s ease;
+    --transition-slow: 0.3s ease;
+
+    /* Layout */
+    --max-width: 640px;
+    --header-height: 64px;
+    --footer-height: 48px;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #16213e;
+    --bg-tertiary: #0f3460;
+    --bg-card: #1e2746;
+    --text-primary: #e4e4e4;
+    --text-secondary: #a0a0a0;
+    --text-muted: #6c757d;
+    --accent: #4d94ff;
+    --accent-hover: #6eb5ff;
+    --accent-light: rgba(77, 148, 255, 0.15);
+    --success: #2ea86b;
+    --success-light: rgba(46, 168, 107, 0.15);
+    --warning: #f5b041;
+    --warning-light: rgba(245, 176, 65, 0.15);
+    --danger: #e74c3c;
+    --danger-light: rgba(231, 76, 60, 0.15);
+    --border: #2d3a4a;
+    --border-light: #232d3f;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
