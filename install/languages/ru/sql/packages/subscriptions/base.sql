@@ -31,7 +31,7 @@ CREATE TABLE `{#}subscriptions_bind` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Подписки';
 
 INSERT INTO `{#}controllers` (`title`, `name`, `is_enabled`, `options`, `author`, `url`, `version`, `is_backend`) VALUES
-('Подписки', 'subscriptions', 1, '---\nguest_email_confirmation: 1\nneed_auth: null\nverify_exp: 24\nupdate_user_rating: 1\nrating_value: 1\nadmin_email:\nlimit: 20\n', 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1);
+('Подписки', 'subscriptions', 1, '---\nguest_email_confirmation: 1\nneed_auth: null\nverify_exp: 24\nupdate_user_rating: 1\nrating_value: 1\nadmin_email:\nlimit: 20\n', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1);
 
 INSERT INTO `{#}events` (`event`, `listener`, `ordering`, `is_enabled`) VALUES
 ('user_delete', 'subscriptions', 129, 1),
@@ -54,4 +54,4 @@ INSERT INTO `{#}users_tabs` (`title`, `controller`, `name`, `is_active`, `orderi
 ('Подписки', 'subscriptions', 'subscriptions', 1, 3);
 
 INSERT INTO `{#}widgets` (`controller`, `name`, `title`, `author`, `url`, `version`, `is_external`) VALUES
-('subscriptions', 'button', 'Кнопки подписки', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL);
+('subscriptions', 'button', 'Кнопки подписки', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL);

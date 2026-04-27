@@ -1,5 +1,5 @@
 INSERT INTO `{#}controllers` (`title`, `name`, `is_enabled`, `options`, `author`, `url`, `version`, `is_backend`) VALUES
-('Группы', 'groups', 1, '---\nis_ds_rating: 1\nis_ds_popular: 1\nis_wall: 1\n', 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1);
+('Группы', 'groups', 1, '---\nis_ds_rating: 1\nis_ds_popular: 1\nis_wall: 1\n', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1);
 
 INSERT INTO `{#}events` (`event`, `listener`, `ordering`, `is_enabled`) VALUES
 ('admin_dashboard_chart', 'groups', 40, 1),
@@ -148,7 +148,7 @@ INSERT INTO `{#}users_tabs` (`title`, `controller`, `name`, `is_active`, `orderi
 ('Группы', 'groups', 'groups', 1, 3);
 
 INSERT INTO `{#}widgets` (`controller`, `name`, `title`, `author`, `url`, `version`, `is_external`) VALUES
-('groups', 'list', 'Список групп', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL);
+('groups', 'list', 'Список групп', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL);
 
 INSERT INTO `{#}widgets_pages` (`id`, `controller`, `name`, `title_const`, `title_subject`, `title`, `url_mask`, `url_mask_not`) VALUES
 (169, 'groups', 'list', 'LANG_GROUPS_LIST', NULL, NULL, 'groups', NULL);

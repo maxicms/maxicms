@@ -221,16 +221,16 @@ CREATE TABLE `{#}controllers` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Components';
 
 INSERT INTO `{#}controllers` (`id`, `title`, `name`, `is_enabled`, `options`, `author`, `url`, `version`, `is_backend`) VALUES
-(1, 'Control Panel', 'admin', 1, '---\ndashboard_order:\n  stat: 0\n  activity: 1\n  news: 2\n  sysinfo: 3\n  resources: 4\n  users_online: 5\n', 'InstantCMS Team', 'https://instantcms.ru', '2.0', 0),
-(2, 'Content', 'content', 1, NULL, 'InstantCMS Team', 'https://instantcms.ru', '2.0', 0),
-(3, 'User Profiles', 'users', 1, '---\nis_ds_online: 1\nis_ds_rating: 1\nis_ds_popular: 1\nis_filter: 1\nis_auth_only: null\nis_status: 1\nis_wall: 1\nis_themes_on: 1\nmax_tabs: 7\nis_friends_on: 1\nis_karma: 1\nis_karma_comments: 1\nkarma_time: 30\nrestricted_slugs: |\n  *admin*\r\n  *moder*\nlimit: 15\nlist_allowed: [ ]\nshow_user_groups: 1\nshow_reg_data: 1\nshow_last_visit: 1\nprofile_max_friends_count: 10\nseo_keys: \"\"\nseo_desc: \'Site users list{page:, %s}\'\ntag_title: \"\"\ntag_desc: \"\"\ntag_h1: \"\"\nseo_h1: Users\nseo_title: \'Users{page:, %s}\'\n', 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1),
-(5, 'Private messages', 'messages', 1, '---\nlimit: 10\ngroups_allowed: [ ]\neditor: \"2\"\neditor_presets: null\ntime_delete_old: 0\nrealtime_mode: ajax\nrefresh_time: 15\nsocket_host: \"\"\nsocket_port: 3000\nuse_queue: null\nis_enable_pm: 1\nis_contact_first_select: null\ntypograph_id: \"2\"\nemail_template: \"\"\n', 'InstantCMS Team', 'https://instantcms.ru/', '2.0', 1),
-(6, 'Authorization & Registration', 'auth', 1, '---\nis_reg_enabled: 1\nreg_reason: >\n  We apologize, but,\n  we do not accept\n  new users at the moment\nis_reg_invites: null\nreg_captcha: null\nverify_email: null\nverify_exp: 48\nauth_captcha: null\nrestricted_emails: |\n  *@shitmail.me\r\n  *@mailspeed.ru\r\n  *@temp-mail.ru\r\n  *@guerrillamail.com\r\n  *@12minutemail.com\r\n  *@mytempemail.com\r\n  *@spamobox.com\r\n  *@disposableinbox.com\r\n  *@filzmail.com\r\n  *@freemail.ms\r\n  *@anonymbox.com\r\n  *@lroid.com\r\n  *@yopmail.com\r\n  *@TempEmail.net\r\n  *@spambog.com\r\n  *@mailforspam.com\r\n  *@spam.su\r\n  *@no-spam.ws\r\n  *@mailinator.com\r\n  *@spamavert.com\r\n  *@trashcanmail.com\nrestricted_names: |\n  admin*\r\n  moderator\nrestricted_ips:\nis_invites: 1\nis_invites_strict: 1\ninvites_period: 7\ninvites_qty: 3\ninvites_min_karma: 0\ninvites_min_rating: 0\ninvites_min_days: 0\nreg_auto_auth: 1\nfirst_auth_redirect: profileedit\nauth_redirect: none\ndef_groups:\n  - 3\nis_site_only_auth_users: null\nguests_allow_controllers:\n  - auth\n  - geo\nseo_keys:\nseo_desc:\n', 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1),
-(13, 'Moderation Panel', 'moderation', 1, NULL, 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1),
-(19, 'Image Upload', 'images', 1, NULL, 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1),
-(23, 'Wysiwyg editors', 'wysiwygs', 1, NULL, 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1),
-(25, 'Multilinguality', 'languages', 1, '---\nservice: google\n', 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1),
-(26, 'Typograph', 'typograph', 1, NULL, 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1);
+(1, 'Control Panel', 'admin', 1, '---\ndashboard_order:\n  stat: 0\n  activity: 1\n  news: 2\n  sysinfo: 3\n  resources: 4\n  users_online: 5\n', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 0),
+(2, 'Content', 'content', 1, NULL, 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 0),
+(3, 'User Profiles', 'users', 1, '---\nis_ds_online: 1\nis_ds_rating: 1\nis_ds_popular: 1\nis_filter: 1\nis_auth_only: null\nis_status: 1\nis_wall: 1\nis_themes_on: 1\nmax_tabs: 7\nis_friends_on: 1\nis_karma: 1\nis_karma_comments: 1\nkarma_time: 30\nrestricted_slugs: |\n  *admin*\r\n  *moder*\nlimit: 15\nlist_allowed: [ ]\nshow_user_groups: 1\nshow_reg_data: 1\nshow_last_visit: 1\nprofile_max_friends_count: 10\nseo_keys: \"\"\nseo_desc: \'Site users list{page:, %s}\'\ntag_title: \"\"\ntag_desc: \"\"\ntag_h1: \"\"\nseo_h1: Users\nseo_title: \'Users{page:, %s}\'\n', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1),
+(5, 'Private messages', 'messages', 1, '---\nlimit: 10\ngroups_allowed: [ ]\neditor: \"2\"\neditor_presets: null\ntime_delete_old: 0\nrealtime_mode: ajax\nrefresh_time: 15\nsocket_host: \"\"\nsocket_port: 3000\nuse_queue: null\nis_enable_pm: 1\nis_contact_first_select: null\ntypograph_id: \"2\"\nemail_template: \"\"\n', 'MaxiCMS Team', 'https://maxicms.ru/', '2.0', 1),
+(6, 'Authorization & Registration', 'auth', 1, '---\nis_reg_enabled: 1\nreg_reason: >\n  We apologize, but,\n  we do not accept\n  new users at the moment\nis_reg_invites: null\nreg_captcha: null\nverify_email: null\nverify_exp: 48\nauth_captcha: null\nrestricted_emails: |\n  *@shitmail.me\r\n  *@mailspeed.ru\r\n  *@temp-mail.ru\r\n  *@guerrillamail.com\r\n  *@12minutemail.com\r\n  *@mytempemail.com\r\n  *@spamobox.com\r\n  *@disposableinbox.com\r\n  *@filzmail.com\r\n  *@freemail.ms\r\n  *@anonymbox.com\r\n  *@lroid.com\r\n  *@yopmail.com\r\n  *@TempEmail.net\r\n  *@spambog.com\r\n  *@mailforspam.com\r\n  *@spam.su\r\n  *@no-spam.ws\r\n  *@mailinator.com\r\n  *@spamavert.com\r\n  *@trashcanmail.com\nrestricted_names: |\n  admin*\r\n  moderator\nrestricted_ips:\nis_invites: 1\nis_invites_strict: 1\ninvites_period: 7\ninvites_qty: 3\ninvites_min_karma: 0\ninvites_min_rating: 0\ninvites_min_days: 0\nreg_auto_auth: 1\nfirst_auth_redirect: profileedit\nauth_redirect: none\ndef_groups:\n  - 3\nis_site_only_auth_users: null\nguests_allow_controllers:\n  - auth\n  - geo\nseo_keys:\nseo_desc:\n', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1),
+(13, 'Moderation Panel', 'moderation', 1, NULL, 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1),
+(19, 'Image Upload', 'images', 1, NULL, 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1),
+(23, 'Wysiwyg editors', 'wysiwygs', 1, NULL, 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1),
+(25, 'Multilinguality', 'languages', 1, '---\nservice: google\n', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1),
+(26, 'Typograph', 'typograph', 1, NULL, 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1);
 
 DROP TABLE IF EXISTS `{#}con_pages`;
 CREATE TABLE `{#}con_pages` (
@@ -1058,21 +1058,21 @@ CREATE TABLE `{#}widgets` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 INSERT INTO `{#}widgets` (`id`, `controller`, `name`, `title`, `author`, `url`, `version`, `is_external`) VALUES
-(1, NULL, 'text', 'Text block', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(2, 'users', 'list', 'User list', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(3, NULL, 'menu', 'Menu', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(4, 'content', 'list', 'Content list', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(5, 'content', 'categories', 'Categories', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(8, 'users', 'online', 'Who is online', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(9, 'users', 'avatar', 'User Avatar', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(11, 'content', 'slider', 'Content slider', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(12, 'auth', 'auth', 'Authorization form', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(14, NULL, 'html', 'HTML block', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(15, 'content', 'filter', 'Content filter', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(19, 'auth', 'register', 'Registration form', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(20, NULL, 'template', 'Template Elements', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(21, 'content', 'fields', 'Content Fields', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL),
-(23, 'content', 'author', 'Author of the entry', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL);
+(1, NULL, 'text', 'Text block', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(2, 'users', 'list', 'User list', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(3, NULL, 'menu', 'Menu', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(4, 'content', 'list', 'Content list', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(5, 'content', 'categories', 'Categories', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(8, 'users', 'online', 'Who is online', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(9, 'users', 'avatar', 'User Avatar', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(11, 'content', 'slider', 'Content slider', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(12, 'auth', 'auth', 'Authorization form', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(14, NULL, 'html', 'HTML block', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(15, 'content', 'filter', 'Content filter', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(19, 'auth', 'register', 'Registration form', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(20, NULL, 'template', 'Template Elements', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(21, 'content', 'fields', 'Content Fields', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL),
+(23, 'content', 'author', 'Author of the entry', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL);
 
 DROP TABLE IF EXISTS `{#}widgets_bind`;
 CREATE TABLE `{#}widgets_bind` (

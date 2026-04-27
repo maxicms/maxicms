@@ -1,5 +1,5 @@
 INSERT INTO `{#}controllers` (`title`, `name`, `is_enabled`, `options`, `author`, `url`, `version`, `is_backend`) VALUES
-('Рейтинг', 'rating', 1, '---\nis_hidden: 1\nis_show: 1\nallow_guest_vote: null\ntemplate: widget\n', 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1);
+('Рейтинг', 'rating', 1, '---\nis_hidden: 1\nis_show: 1\nallow_guest_vote: null\ntemplate: widget\n', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1);
 
 INSERT INTO `{#}events` (`event`, `listener`, `ordering`, `is_enabled`) VALUES
 ('user_delete', 'rating', 83, 1),

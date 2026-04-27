@@ -1,5 +1,5 @@
 INSERT INTO `{#}controllers` (`title`, `name`, `is_enabled`, `options`, `author`, `url`, `version`, `is_backend`) VALUES
-('Content Security Policy', 'csp', 1, '---\nenable_csp: null\ncsp_str: \"default-src \'self\'; script-src \'unsafe-eval\' \'nonce-{nonce}\' \'strict-dynamic\'; style-src \'self\' data: \'unsafe-inline\' https://fonts.googleapis.com; img-src \'self\' data: https://instantcms.ru; font-src \'self\' data: https://fonts.gstatic.com\"\nis_report_only: 1\nenable_report: 1\n', 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1);
+('Content Security Policy', 'csp', 1, '---\nenable_csp: null\ncsp_str: \"default-src \'self\'; script-src \'unsafe-eval\' \'nonce-{nonce}\' \'strict-dynamic\'; style-src \'self\' data: \'unsafe-inline\' https://fonts.googleapis.com; img-src \'self\' data: https://maxicms.ru; font-src \'self\' data: https://fonts.gstatic.com\"\nis_report_only: 1\nenable_report: 1\n', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1);
 
 INSERT INTO `{#}events` (`event`, `listener`, `ordering`, `is_enabled`) VALUES
 ('engine_start', 'csp', 239, 1);

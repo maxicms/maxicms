@@ -1,5 +1,5 @@
 INSERT INTO `{#}controllers` (`title`, `name`, `is_enabled`, `options`, `author`, `url`, `version`, `is_backend`) VALUES
-('Генератор RSS', 'rss', 1, NULL, 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1);
+('Генератор RSS', 'rss', 1, NULL, 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1);
 
 INSERT INTO `{#}events` (`event`, `listener`, `ordering`, `is_enabled`) VALUES
 ('ctype_basic_form', 'rss', 87, 1),

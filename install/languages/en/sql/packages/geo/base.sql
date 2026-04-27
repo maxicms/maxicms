@@ -1,5 +1,5 @@
 INSERT INTO `{#}controllers` (`title`, `name`, `is_enabled`, `options`, `author`, `url`, `version`, `is_backend`) VALUES
-('Geobase', 'geo', 1, '---\nauto_detect: 1\nauto_detect_provider: geoiplookup\ndefault_country_id: null\ndefault_country_id_cache: null\ndefault_region_id: null\ndefault_region_id_cache: null\n', 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1);
+('Geobase', 'geo', 1, '---\nauto_detect: 1\nauto_detect_provider: geoiplookup\ndefault_country_id: null\ndefault_country_id_cache: null\ndefault_region_id: null\ndefault_region_id_cache: null\n', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1);
 
 DROP TABLE IF EXISTS `{#}geo_cities`;
 CREATE TABLE `{#}geo_cities` (

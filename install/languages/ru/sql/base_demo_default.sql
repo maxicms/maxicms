@@ -4,7 +4,7 @@ ALTER TABLE `{#}users` ADD `site` text NULL DEFAULT NULL;
 ALTER TABLE `{#}users` ADD `phone` varchar(255) NULL DEFAULT NULL;
 ALTER TABLE `{#}users` ADD `music` varchar(255) NULL DEFAULT NULL;
 ALTER TABLE `{#}users` ADD `movies` varchar(255) NULL DEFAULT NULL;
-UPDATE `{#}users` SET `site` = 'instantcms.ru', `movies` = 'разные интересные', `music` = 'Disco House, Minimal techno', `phone` = '100-20-30', `hobby` = 'Ротор векторного поля, очевидно, неоднозначен. По сути, уравнение в частных производных масштабирует нормальный лист Мёбиуса, при этом, вместо 13 можно взять любую другую константу.', `birth_date` = '1985-10-15 00:00:00' WHERE `id` = 1;
+UPDATE `{#}users` SET `site` = 'maxicms.ru', `movies` = 'разные интересные', `music` = 'Disco House, Minimal techno', `phone` = '100-20-30', `hobby` = 'Ротор векторного поля, очевидно, неоднозначен. По сути, уравнение в частных производных масштабирует нормальный лист Мёбиуса, при этом, вместо 13 можно взять любую другую константу.', `birth_date` = '1985-10-15 00:00:00' WHERE `id` = 1;
 
 INSERT INTO `{#}users_fields` (`id`, `ctype_id`, `name`, `title`, `hint`, `ordering`, `fieldset`, `type`, `is_in_list`, `is_in_item`, `is_in_filter`, `is_private`, `is_fixed`, `is_fixed_type`, `is_system`, `values`, `options`, `groups_read`, `groups_edit`) VALUES
 (1, NULL, 'birth_date', 'Возраст', NULL, 4, 'Анкета', 'age', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, '---\ndate_title: Дата рождения\nshow_y: 1\nshow_m: \nshow_d: \nshow_h: \nshow_i: \nrange: YEAR\nlabel_in_item: left\nis_required: \nis_digits: \nis_alphanumeric: \nis_email: \nis_unique: \n', '---\n- 0\n', '---\n- 0\n'),

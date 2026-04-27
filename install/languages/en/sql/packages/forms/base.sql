@@ -30,11 +30,11 @@ CREATE TABLE `{#}forms_fields` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Поля конструктора форм';
 
 INSERT INTO `{#}controllers` (`title`, `name`, `is_enabled`, `options`, `author`, `url`, `version`, `is_backend`) VALUES
-('Form constructor', 'forms', 1, '---\nsend_text: >\n  Thanks! Form\n sent successfully.\nallow_embed: null\nallow_embed_domain:\ndenied_embed_domain:\nletter: |\n  [subject:Form: {form_title} - {site}]\r\n  \r\n  Hello.\r\n  \r\n  The form <b>{form_title}</b> has been sent from the site {site}.\r\n  \r\n  Form data:\r\n  \r\n  {form_data}\r\n  \r\n  --\r\n   Best regards, {site}\r\n   <small>This letter is sent automatically, please do not reply.</small>\nnotify_text: \'<p>Hello.</p><p>Form <strong>{form_title}</strong> submitted.</p><p><strong>Form data:</strong></p><p>{form_data}</p>\'\n', 'InstantCMS Team', 'https://instantcms.ru', '2.0', 1);
+('Form constructor', 'forms', 1, '---\nsend_text: >\n  Thanks! Form\n sent successfully.\nallow_embed: null\nallow_embed_domain:\ndenied_embed_domain:\nletter: |\n  [subject:Form: {form_title} - {site}]\r\n  \r\n  Hello.\r\n  \r\n  The form <b>{form_title}</b> has been sent from the site {site}.\r\n  \r\n  Form data:\r\n  \r\n  {form_data}\r\n  \r\n  --\r\n   Best regards, {site}\r\n   <small>This letter is sent automatically, please do not reply.</small>\nnotify_text: \'<p>Hello.</p><p>Form <strong>{form_title}</strong> submitted.</p><p><strong>Form data:</strong></p><p>{form_data}</p>\'\n', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', 1);
 
 INSERT INTO `{#}events` (`event`, `listener`, `ordering`, `is_enabled`) VALUES
 ('content_before_item', 'forms', 192, 1),
 ('languages_forms', 'forms', 233, 1);
 
 INSERT INTO `{#}widgets` (`controller`, `name`, `title`, `author`, `url`, `version`, `is_external`) VALUES
-('forms', 'form', 'Form', 'InstantCMS Team', 'https://instantcms.ru', '2.0', NULL);
+('forms', 'form', 'Form', 'MaxiCMS Team', 'https://maxicms.ru', '2.0', NULL);
