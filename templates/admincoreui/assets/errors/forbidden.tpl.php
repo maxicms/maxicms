@@ -23,7 +23,7 @@
                             <div class="card p-0 p-md-2 p-lg-4">
                                 <?php if (!$this->site_config->disable_copyright) { ?>
                                     <div class="top-logo">
-                                        <img src="<?php echo $this->getTemplateFilePath('images/logo.svg'); ?>" width="200" alt="InstantCMS Logo">
+                                        <img src="<?php echo $this->getTemplateFilePath('images/logo.svg'); ?>" width="200" alt="MaxiCMS Logo">
                                     </div>
                                 <?php } ?>
                                 <div class="card-body">

@@ -15,7 +15,7 @@
  * @author  Serban Ghita <serbanghita@gmail.com> (since 2012)
  * @author  Nick Ilyin <nick.ilyin@gmail.com>
  * @author: Victor Stanciu <vic.stanciu@gmail.com> (original author)
- * @modifier InstantCMS Team
+ * @modifier MaxiCMS Team
  *
  * @version 3.74.4
  *

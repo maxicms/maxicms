@@ -2,7 +2,7 @@
 
 /**
  * Класс управления событиями
- * @doc https://docs.instantcms.ru/dev/controllers/hooks
+ * @doc https://docs.maxicms.ru/dev/controllers/hooks
  */
 class cmsEventsManager {
 

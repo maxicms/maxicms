@@ -1,9 +1,9 @@
 <div class="row">
     <div class="col-md-6 mb-3 mb-md-0">
-        <a class="btn btn-block btn-light" href="https://instantcms.ru/donate.html" target="_blank"><?php echo LANG_CP_DASHBOARD_LINKS_DONATE; ?></a>
+        <a class="btn btn-block btn-light" href="https://maxicms.ru/donate.html" target="_blank"><?php echo LANG_CP_DASHBOARD_LINKS_DONATE; ?></a>
     </div>
     <div class="col-md-6">
-        <a class="btn btn-block btn-warning" href="https://instantcms.ru/sponsorship.html" target="_blank"><?php echo LANG_CP_DASHBOARD_LINKS_SPONSORS; ?></a>
+        <a class="btn btn-block btn-warning" href="https://maxicms.ru/sponsorship.html" target="_blank"><?php echo LANG_CP_DASHBOARD_LINKS_SPONSORS; ?></a>
     </div>
 </div>
 <!--<h4 class="mb-3"><?php echo LANG_CP_DASHBOARD_PREMIUM; ?></h4>
@@ -12,7 +12,7 @@
         <?php html_svg_icon('solid', 'play-circle'); ?>
     </i>
     <h5 class="mb-1">
-        <a class="text-white" href="https://instantvideo.ru/software/instantvideo2.html" target="_blank">
+        <a class="text-white" href="https://maxvideo.ru/software/maxvideo2.html" target="_blank">
             InstantVideo
         </a>
     </h5>
@@ -23,7 +23,7 @@
         <?php html_svg_icon('solid', 'map-marked-alt'); ?>
     </i>
     <h5 class="mb-1">
-        <a class="text-white" href="https://instantcms.ru/blogs/instantsoft/instantmaps-dlja-instantcms-2.html" target="_blank">
+        <a class="text-white" href="https://maxicms.ru/blogs/maxisoft/maximaps-dlja-maxicms-2.html" target="_blank">
             InstantMaps
         </a>
     </h5>

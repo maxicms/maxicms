@@ -1,7 +1,7 @@
 <?php
 /**
  * Опции шаблона
- * https://docs.instantcms.ru/dev/templates/options
+ * https://docs.maxicms.ru/dev/templates/options
  */
 class formModernTemplateOptions extends cmsForm {
 

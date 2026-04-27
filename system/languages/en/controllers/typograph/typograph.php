@@ -2,7 +2,7 @@
 define('LANG_TYPOGRAPH_CONTROLLER', 'Typographer');
 define('LANG_TYP_PRESETS', 'Typographer Presets');
 define('LANG_TYP_PRESET_TITLE', 'Preset name');
-define('LANG_HELP_URL_COM_TYPOGRAPH', 'https://docs.instantcms.ru/en/manual/components/typograph');
+define('LANG_HELP_URL_COM_TYPOGRAPH', 'https://docs.maxicms.ru/en/manual/components/typograph');
 define('LANG_TYP_PRESET_DELETE_CONFIRM', 'Delete the  "{title}" preset?');
 define('LANG_TYP_ATTR_TAG', 'Attributes for the &lt;%s&gt; tag');
 define('LANG_TYP_TAG_CALLBACK', 'Tag Callback');

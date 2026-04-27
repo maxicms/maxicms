@@ -2,7 +2,7 @@
 /**
  * This library is maintained by Gumlet
  * https://github.com/gumlet/php-image-resize
- * modifed for InstantCMS
+ * modifed for MaxiCMS
  */
 class cmsImages {
 

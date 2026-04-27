@@ -1,15 +1,13 @@
 <p>
-  <a href="https://instantcms.ru">
-    <img alt="InstantCMS" src="https://instantcms.ru/templates/icms/images/logo.svg" />
+  <a href="https://maxicms.ru">
+    <img alt="MaxiCMS" src="https://maxicms.ru/templates/icms/images/logo.svg" />
   </a>
 </p>
 
 #### Is a free open source CMS that allows you to build websites for any purpose.
 
 [![LICENSE](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](./LICENSE)
-[![GitHub release](https://img.shields.io/github/release/instantsoft/icms2.svg)](https://github.com/instantsoft/icms2/releases)
-![PHP version](https://img.shields.io/badge/PHP->=v7.2-red.svg?php=7.2)
-[![Issues](https://img.shields.io/github/issues-closed-raw/instantsoft/icms2.svg?maxAge=2592000)](https://github.com/instantsoft/icms2/issues)
+![PHP version](https://img.shields.io/badge/PHP->=v8.0-red.svg?php=8.0)
 
 ## Key features
 
@@ -25,35 +23,27 @@
 * User management;
 * Easy-to-install core updates.
 
-## Live Demo ##
-
-Try it out for yourself in our [online demo](https://demo.instantcms.io/)
-
 ## Requirements ##
-* PHP 7.2+
+
+* PHP 8.0+
 * GD, iconv, mbstring, simplexml, json and filter PHP extension
-* Mysql 5.0 or above, MariaDB and its support in PHP
+* MySQL 5.0 or above, MariaDB and its support in PHP
 * Apache + mod_rewrite (or FallbackResource) or Nginx + converted .htaccess rules
 
-## Install InstantCMS ##
+## Install MaxiCMS ##
 
 * Check the requirements.
-* How do you [install InstantCMS](https://docs.instantcms.ru/en/manual/install)?
+* How do you [install MaxiCMS](https://docs.maxicms.ru/manual/install)?
 
-## Security Vulnerabilities
+## Security Vulnerabilities ##
 
-If you discover a security vulnerability within InstantCMS, please send an e-mail to Fuze via [fuze@instantcms.ru](mailto:fuze@instantcms.ru). Or, open a [draft security advisory](https://github.com/instantsoft/icms2/security/advisories/new). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within MaxiCMS, please open a draft security advisory. All security vulnerabilities will be promptly addressed.
 
 ## Licensing ##
 
 This software is distributed under the GPL-2.0 license. Please read license.en.txt for information on the software availability and distribution.
 
-## Resources
+## Resources ##
 
-* [Official site](https://instantcms.io/)
-* [Official site (ru)](https://instantcms.ru/)
-* [Add-ons for CMS](https://instantcms.ru/addons)
-* [Documentation](https://docs.instantcms.ru/en)
-* [Russian documentation](https://docs.instantcms.ru/)
-* [Russian README](https://github.com/instantsoft/icms2/blob/master/.github/README.RU.md)
-* [Ukraine README](https://github.com/instantsoft/icms2/blob/master/.github/README.UK.md)
+* [Official site](https://maxicms.ru/)
+* [Documentation](https://docs.maxicms.ru/)

@@ -1,7 +1,7 @@
 /*
 	Redactor v9.2.6
 	Updated: Jul 19, 2014
-    Modified By InstantCMS Team
+    Modified By MaxiCMS Team
 	http://imperavi.com/redactor/
 	Copyright (c) 2009-2014, Imperavi LLC.
 	License: http://imperavi.com/redactor/license/

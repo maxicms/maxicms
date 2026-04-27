@@ -8,8 +8,8 @@ return [
     'title' => 'CoreUI',
     // Авторство
     'author' => [
-        'name' => 'InstantCMS Team',
-        'url'  => 'https://instantcms.ru'
+        'name' => 'MaxiCMS Team',
+        'url'  => 'https://maxicms.ru'
     ],
     // Свойства шаблона
     'properties' => [

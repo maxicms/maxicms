@@ -2,7 +2,7 @@
 define('LANG_TYPOGRAPH_CONTROLLER', 'Типограф');
 define('LANG_TYP_PRESETS', 'Пресеты типографа');
 define('LANG_TYP_PRESET_TITLE', 'Название пресета');
-define('LANG_HELP_URL_COM_TYPOGRAPH', 'https://docs.instantcms.ru/manual/components/typograph');
+define('LANG_HELP_URL_COM_TYPOGRAPH', 'https://docs.maxicms.ru/manual/components/typograph');
 define('LANG_TYP_PRESET_DELETE_CONFIRM', 'Удалить пресет "{title}"?');
 define('LANG_TYP_ATTR_TAG', 'Атрибуты для тега &lt;%s&gt;');
 define('LANG_TYP_TAG_CALLBACK', 'Колбэк тега');

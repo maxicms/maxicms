@@ -7,16 +7,16 @@
  * http://code.google.com/p/jevix/
  *
  * @author ur001 <ur001ur001@gmail.com>, http://ur001.habrahabr.ru
- * @modified InstantSoft, https://instantcms.ru/ for InstantCMS
+ * @modified MaxiSoft, https://maxicms.ru/ for MaxiCMS
  * @version 1.13
  *
  * История версий:
- * 1.13: (InstantCMS)
+ * 1.13: (MaxiCMS)
  *  + Добавлен метод cfgSetLinkProtocol
  *  + Небольшая чистка кода
  *  + Проверка в атрибутах на javascript|data, в также на символы \n\r\t
  *  + Если опция isAutoBrMode выключена, то символы переноса строки остаются
- * 1.12: (InstantCMS)
+ * 1.12: (MaxiCMS)
  *  + PHP 7.4 fix.
  * 1.11:
  *  + Исправлены ошибки из-за которых удалялись теги и аттрибуты со значением "0". Спасибо Dmitry Shurupov (dmitry.shurupov@trueoffice.ru)

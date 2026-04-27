@@ -1,7 +1,7 @@
 <?php
 
 define('LANG_BILLING_CONTROLLER', 'Billing');
-define('LANG_HELP_URL_COM_BILLING', 'https://docs.instantcms.ru/en/manual/components/billing');
+define('LANG_HELP_URL_COM_BILLING', 'https://docs.maxicms.ru/en/manual/components/billing');
 define('LANG_BILLING_CONFIGURE', 'Configure billing');
 define('LANG_BILLING_CP_DASHBOARD', 'Overview');
 define('LANG_BILLING_CP_SYSTEMS', 'Systems');

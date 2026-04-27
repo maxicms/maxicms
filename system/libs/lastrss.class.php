@@ -10,7 +10,7 @@
  Latest version, features, manual and examples:
     http://lastrss.webdot.cz/
 
-    modifed by https://instantcms.ru/
+    modifed by https://maxicms.ru/
 
  ----------------------------------------------------------------------
  LICENSE
@@ -313,7 +313,7 @@ class lastRSS {
                 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
             }
 
-            curl_setopt($curl, CURLOPT_USERAGENT, 'InstantCMS/'.cmsCore::getVersion().' ('.cmsConfig::get('language').')');
+            curl_setopt($curl, CURLOPT_USERAGENT, 'MaxiCMS/'.cmsCore::getVersion().' ('.cmsConfig::get('language').')');
             curl_setopt($curl, CURLOPT_URL, $url);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_HEADER, false);

@@ -38,7 +38,7 @@ class onUsersUserTabInfo extends cmsAction {
             return ['counter' => $this->subscribers_count];
         }
 
-        // Не используется. Совместимость с InstantCMS 1.X.
+        // Не используется. Совместимость с MaxiCMS 1.X.
         // Для работы необходим экшен и запись в таблице.
         if ($tab_name === 'files') {
 

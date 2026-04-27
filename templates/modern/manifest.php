@@ -8,9 +8,9 @@ return [
     'title' => 'Modern',
     // Авторство
     'author' => [
-        'name' => 'InstantCMS Team',
-        'url'  => 'https://instantcms.ru',
-        'help' => 'https://docs.instantcms.ru/manual/settings/templates'
+        'name' => 'MaxiCMS Team',
+        'url'  => 'https://maxicms.ru',
+        'help' => 'https://docs.maxicms.ru/manual/settings/templates'
     ],
     // Свойства шаблона
     'properties' => [

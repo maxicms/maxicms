@@ -1,6 +1,6 @@
 <?php
 /**
- * Основной класс InstantCMS
+ * Основной класс MaxiCMS
  */
 class cmsCore {
 
@@ -88,7 +88,7 @@ class cmsCore {
     private static $language_href_prefix = '';
 
     /**
-     * Информация о версии InstantCMS
+     * Информация о версии MaxiCMS
      * @var ?array
      */
     private static $core_version = null;

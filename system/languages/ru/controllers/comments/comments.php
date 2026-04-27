@@ -10,7 +10,7 @@ define('LANG_COMMENTS_VIEW', 'Смотреть комментарий');
 define('LANG_COMMENTS_DELETE_CONFIRM', 'Вы действительно хотите удалить комментарий? Вложенные комментарии также удалятся.');
 define('LANG_COMMENTS_EDIT_TEXT', 'Редактировать текст комментария');
 define('LANG_COMMENTS_LIST', 'Все комментарии');
-define('LANG_COMMENTS_DISABLE_ICMS_COMMENTS', 'Отключить систему комментирования InstantCMS');
+define('LANG_COMMENTS_DISABLE_ICMS_COMMENTS', 'Отключить систему комментирования MaxiCMS');
 define('LANG_COMMENTS_SHOW_LIST', 'Показывать в общем списке комментарии');
 define('LANG_COMMENTS_DISABLE_ICMS_COMMENTS_HINT', 'Может пригодиться, если вы хотите оставить для комментирования стороннюю систему, например Вконтакте.');
 define('LANG_COMMENTS_OPT_DIM_NEGATIVE', 'Затемнять комментарии с отрицательным рейтингом');

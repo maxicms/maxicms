@@ -1,5 +1,5 @@
 <?php
 /**
  * Данный файл позволяет переопределить URL любого компонента
- * Документация: http://docs.instantcms.ru/manual/settings/rewriting
+ * Документация: https://docs.maxicms.ru/manual/settings/rewriting
  */

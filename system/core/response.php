@@ -138,7 +138,7 @@ class cmsResponse {
         }
 
         if (!cmsConfig::get('disable_copyright')) {
-            $this->setHeader('X-Powered-By', 'InstantCMS');
+            $this->setHeader('X-Powered-By', 'MaxiCMS');
         }
 
         // RFC2616 - 14.18 все ответы должны иметь дату

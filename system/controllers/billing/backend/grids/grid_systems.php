@@ -55,7 +55,7 @@ function grid_systems($controller) {
             'title'  => LANG_HELP,
             'icon'   => 'question-circle',
             'target' => '_blank',
-            'href'   => 'https://docs.instantcms.ru/manual/components/billing/systems/{name}'
+            'href'   => 'https://docs.maxicms.ru/manual/components/billing/systems/{name}'
         ]
     ];
 

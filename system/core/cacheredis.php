@@ -24,7 +24,7 @@ class cmsCacheRedis {
     public function __construct(cmsConfigs $config) {
 
         $this->config         = $config;
-        $this->site_namespace = 'instantcms.' . sprintf('%u', crc32($config->host));
+        $this->site_namespace = 'maxicms.' . sprintf('%u', crc32($config->host));
     }
 
     public function set($key, $value, $ttl) {

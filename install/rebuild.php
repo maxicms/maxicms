@@ -1,6 +1,6 @@
 <?php
 /**
- * Простая кастомизация архива InstantCMS
+ * Простая кастомизация архива MaxiCMS
  * В файле /install/manifest.php указываются компоненты, которые:
  * - должны быть удалены из полной сборки
  * - необходимо добавить в сборку
@@ -180,7 +180,7 @@ if ($is_create_archive) {
     if (!empty($manifest['archive_name'])) {
         $archive_name = $manifest['archive_name'].'.zip';
     } else {
-        $archive_name = "instantcms_{$core_version['date']}_v{$core_version['version']}-custom.zip";
+        $archive_name = "maxicms_{$core_version['date']}_v{$core_version['version']}-custom.zip";
     }
 
     $archive_path = dirname(PATH_ICMS).'/'.$archive_name;

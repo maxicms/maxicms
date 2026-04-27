@@ -1,6 +1,6 @@
 <?php
 /**
- * Класс автозагрузки InstantCMS
+ * Класс автозагрузки MaxiCMS
  */
 class cmsAutoloader {
 
@@ -44,7 +44,7 @@ class cmsAutoloader {
      * Регистрирует класс/набор классов по неймспейсу или имени
      *
      * @param string $namespace Базовый неймспейс
-     * @param string $directory Путь до директории, относительно корня InstantCMS
+     * @param string $directory Путь до директории, относительно корня MaxiCMS
      * @return void
      */
     public static function register(string $namespace, string $directory) {
@@ -162,7 +162,7 @@ class cmsAutoloader {
      * Подключает файл через include_once
      * по переданному относительному пути
      *
-     * @param string $rel_path Относительный путь внутри директории InstantCMS
+     * @param string $rel_path Относительный путь внутри директории MaxiCMS
      * @param bool $throw Выбрасывать исключение, если файл не найден
      * @return bool
      * @throws Exception

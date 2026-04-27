@@ -93,7 +93,7 @@ class redirect extends cmsFrontend {
                 curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 2);
                 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
                 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-                curl_setopt($ch, CURLOPT_USERAGENT, 'InstantCMS/2.0 +' . cmsConfig::get('host'));
+                curl_setopt($ch, CURLOPT_USERAGENT, 'MaxiCMS/2.0 +' . cmsConfig::get('host'));
 
                 $data = json_decode(curl_exec($ch), true);
 

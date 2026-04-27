@@ -1,6 +1,6 @@
 <?php
 /**
- * Копирование файлов пакета в дерево каталогов InstantCMS
+ * Копирование файлов пакета в дерево каталогов MaxiCMS
  */
 class actionAdminInstallFtp extends cmsAction {
 
@@ -163,7 +163,7 @@ class actionAdminInstallFtp extends cmsAction {
     }
 
     /**
-     * Проверяет, что директория FTP содержит установку InstantCMS
+     * Проверяет, что директория FTP содержит установку MaxiCMS
      *
      * @param resource|FTP\Connection $connection
      * @param array $account Массив FTP данных для соединения
@@ -262,14 +262,14 @@ class actionAdminInstallFtp extends cmsAction {
         $directory->close();
     }
 
-    /**
-     * Проверяет дерево директорий InstantCMS на возможность записи
-     *
-     * @param array $package_contents_list Массив дерева директорий и файлов
-     * @param array $no_writable Сюда пишутся пути, недоступные для записи
-     * @param bool $start_path Начальная директория
-     * @return bool
-     */
+/**
+ * Проверяет дерево директорий MaxiCMS на возможность записи
+ *
+ * @param array $package_contents_list Массив дерева директорий и файлов
+ * @param array $no_writable Сюда пишутся пути, недоступные для записи
+ * @param bool $start_path Начальная директория
+ * @return bool
+ */
     private function isWritableDestFiles(array $package_contents_list, &$no_writable = [], $start_path = false) {
 
         if (!$start_path) {

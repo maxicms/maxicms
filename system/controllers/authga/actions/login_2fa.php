@@ -42,7 +42,7 @@ class actionAuthgaLogin2fa extends cmsAction {
             'errors'      => $errors ?? false
         ];
 
-        // Для вызовов из InstantCMS JSON API
+        // Для вызовов из MaxiCMS JSON API
         if ($this->request->has('api_context')) {
             return $tpl_params;
         }

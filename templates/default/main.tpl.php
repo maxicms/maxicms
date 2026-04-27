@@ -23,7 +23,7 @@
     <?php $this->head(); ?>
     <meta name="csrf-token" content="<?php echo cmsForm::getCSRFToken(); ?>" />
 <?php if (!$config->disable_copyright) { ?>
-    <meta name="generator" content="InstantCMS" />
+    <meta name="generator" content="MaxiCMS" />
 <?php } ?>
     <style><?php include('options.css.php'); ?></style>
 </head>

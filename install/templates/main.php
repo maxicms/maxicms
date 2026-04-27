@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <link type="text/css" rel="stylesheet" href="css/sweetalert2.min.css">
     <link type="text/css" rel="stylesheet" href="css/styles.css">
-    <meta name="generator" content="InstantCMS" />
+    <meta name="generator" content="MaxiCMS" />
     <script src="js/jquery.js"></script>
     <script src="js/install.js"></script>
     <script src="js/sweetalert2.all.min.js"></script>
@@ -49,7 +49,7 @@
 
         <div id="footer" class="section">
             <div id="copyright">
-                <a href="https://instantcms.ru/" target="_blank">InstantCMS</a> &copy; 2008 – <?php echo date('Y'); ?>
+                <a href="https://maxicms.ru/" target="_blank">MaxiCMS</a> &copy; 2008 – <?php echo date('Y'); ?>
             </div>
             <div id="version">
                 <?php echo get_version(); ?>

@@ -1,6 +1,6 @@
 <?php
 /**
- * Установщик дополнений InstantCMS
+ * Установщик дополнений MaxiCMS
  */
 class cmsInstaller {
 
@@ -134,7 +134,7 @@ class cmsInstaller {
     /**
      * Устанавливает id дополнения для манифеста
      *
-     * @param int $addon_id id дополнения из каталога InstantCMS
+     * @param int $addon_id id дополнения из каталога MaxiCMS
      */
     public function setManifestAddonId($addon_id) {
         // Может быть указано в манифесте

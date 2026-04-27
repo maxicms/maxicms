@@ -1,6 +1,6 @@
 <?php
 /**
- * Класс для работы с конфигурацией InstantCMS
+ * Класс для работы с конфигурацией MaxiCMS
  */
 class cmsConfig extends cmsConfigs {
 
@@ -44,7 +44,7 @@ class cmsConfig extends cmsConfigs {
 
     /**
      * Подключаем ремап контроллеров
-     * http://docs.instantcms.ru/manual/settings/rewriting
+     * https://docs.maxicms.ru/manual/settings/rewriting
      *
      * @return array
      */

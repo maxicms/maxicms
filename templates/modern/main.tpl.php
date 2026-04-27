@@ -1,7 +1,7 @@
 <?php
 /**
  * Основной макет шаблона
- * https://docs.instantcms.ru/dev/templates/layouts
+ * https://docs.maxicms.ru/dev/templates/layouts
  */
 /** @var cmsTemplate $this */
 ?>
@@ -14,7 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="csrf-token" content="<?php echo cmsForm::getCSRFToken(); ?>">
 <?php if (!$config->disable_copyright) { ?>
-        <meta name="generator" content="InstantCMS">
+        <meta name="generator" content="MaxiCMS">
 <?php } ?>
     <?php if(!empty($this->options['head_html_top'])) { ?>
         <?php echo $this->options['head_html_top']."\n"; ?>

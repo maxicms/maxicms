@@ -2,11 +2,11 @@
 
 /**
  * @file
- * Файл, который обслуживает все HTTP запросы страниц InstantCMS.
+ * Файл, который обслуживает все HTTP запросы страниц MaxiCMS.
  *
- * Весь код InstantCMS выпущен в соответствии с лицензией GNU General Public License v2.
- * Смотрите файлы license.en.txt и license.ru.txt в корне вашей установки копии InstantCMS.
- * Сделано в InstantSoft, instantsoft.ru, instantcms.ru.
+ * Весь код MaxiCMS выпущен в соответствии с лицензией GNU General Public License v2.
+ * Смотрите файлы license.en.txt и license.ru.txt в корне вашей установки копии MaxiCMS.
+ * Сделано для MaxiCMS, maxicms.ru.
  */
 
 /**
@@ -21,7 +21,7 @@ define('VALID_RUN', microtime(true));
  */
 define('SESSION_START', true);
 
-// Подключаем файл первоначальной инициализации окружения InstantCMS
+// Подключаем файл первоначальной инициализации окружения MaxiCMS
 require_once __DIR__ . '/bootstrap.php';
 
 // Запускаем

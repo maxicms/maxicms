@@ -46,8 +46,8 @@
         </button>
         <a class="navbar-brand" href="<?php echo href_to('admin'); ?>">
             <?php if (!$config->disable_copyright) { ?>
-                <img class="navbar-brand-full" src="<?php echo $this->getTemplateFilePath('images/'.($core_version['is_custom'] ? 'logo-custom.svg' : 'logo.svg'), true); ?>" width="135" alt="InstantCMS Logo">
-                <img class="navbar-brand-minimized" src="<?php echo $this->getTemplateFilePath('images/small_logo.svg', true); ?>" width="40" height="40" alt="InstantCMS Logo">
+                <img class="navbar-brand-full" src="<?php echo $this->getTemplateFilePath('images/'.($core_version['is_custom'] ? 'logo-custom.svg' : 'logo.svg'), true); ?>" width="135" alt="MaxiCMS Logo">
+                <img class="navbar-brand-minimized" src="<?php echo $this->getTemplateFilePath('images/small_logo.svg', true); ?>" width="40" height="40" alt="MaxiCMS Logo">
             <?php } else { ?>
                 <span class="navbar-brand-full text-light"><?php echo string_short($config->sitename, 18); ?></span>
             <?php } ?>
@@ -223,7 +223,7 @@
         </div>
         <div class="ml-auto mr-auto mr-md-0">
             <?php if (!$config->disable_copyright) { ?>
-                <a href="https://instantcms.ru/">InstantCMS</a> &copy;  <?php echo date('Y'); ?> &mdash;
+                <a href="https://maxicms.ru/">MaxiCMS</a> &copy;  <?php echo date('Y'); ?> &mdash;
                 <a href="<?php echo href_to('admin', 'credits'); ?>"><?php echo LANG_CP_3RDPARTY_CREDITS; ?></a>
             <?php } else { ?>
                 &copy;  <?php echo date('Y'); ?>

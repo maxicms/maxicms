@@ -1,7 +1,7 @@
 <?php
 /**
  * Массив для автозагрузки классов
- * Документация: https://docs.instantcms.ru/dev/overview
+ * Документация: https://docs.maxicms.ru/dev/overview
  */
 
 return [

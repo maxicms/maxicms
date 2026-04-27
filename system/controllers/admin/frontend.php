@@ -4,7 +4,7 @@ class admin extends cmsFrontend {
     use icms\traits\eventDispatcher;
 
     const addons_api_key   = '8e13cb202f8bdc27dc765e0448e50d11';
-    const addons_api_point = 'https://api.instantcms.ru/{lang}api/method/';
+    const addons_api_point = 'https://api.maxicms.ru/{lang}api/method/';
 
     public $disallow_mapping_redirect = true;
 

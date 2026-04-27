@@ -1,7 +1,7 @@
 <?php
 
 define('ADDONS_API_KEY', '8e13cb202f8bdc27dc765e0448e50d11');
-define('ADDONS_API_POINT', 'https://api.instantcms.ru/{lang}api/method/');
+define('ADDONS_API_POINT', 'https://api.maxicms.ru/{lang}api/method/');
 
 function is_ajax_request() {
     if (!isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {

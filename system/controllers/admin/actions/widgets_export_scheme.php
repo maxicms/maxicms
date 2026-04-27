@@ -85,7 +85,7 @@ class actionAdminWidgetsExportScheme extends cmsAction {
 
                 return $this->cms_template->renderJSON([
                     'errors'   => false,
-                    'filename' => $from_template.' - InstantCMS Widgets Scheme.yaml',
+                    'filename' => $from_template.' - MaxiCMS Widgets Scheme.yaml',
                     'yaml'     => cmsModel::arrayToYaml($export),
                     'callback' => 'successExport'
                 ]);

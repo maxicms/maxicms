@@ -159,7 +159,7 @@
     define('LANG_PARSER_PLACEHOLDER',        'Подсказка (placeholder) для поля');
     define('LANG_PARSER_USE_INPUTMASK',      'Использовать маску для ввода');
     define('LANG_PARSER_INPUTMASK',          'Маска для ввода');
-    define('LANG_PARSER_INPUTMASK_HINT',     '9 - цифра, a - буква, * - буквы и цифры. Подробнее в <a target="_blank" href="https://docs.instantcms.ru/manual/ctypes/fields/types#строковое-поле">документации</a>');
+    define('LANG_PARSER_INPUTMASK_HINT',     '9 - цифра, a - буква, * - буквы и цифры. Подробнее в <a target="_blank" href="https://docs.maxicms.ru/manual/ctypes/fields/types#строковое-поле">документации</a>');
     define('LANG_PARSER_IS_STRIP_TAGS',      'Вырезать все HTML теги при сохранении');
     define('LANG_PARSER_HTML',               'Текст HTML');
     define('LANG_PARSER_HTML_EDITOR',        'Редактор HTML');
@@ -167,7 +167,7 @@
     define('LANG_PARSER_TYPOGRAPH',          'Пресет типографа');
     define('LANG_PARSER_HTML_FILTERING',     'Обрабатывать типографом');
     define('LANG_PARSER_PARSE_PATTERNS',     'Обрабатывать специальные шаблоны');
-    define('LANG_PARSER_PARSE_PATTERNS_HINT', 'Используйте поля записи, вставляя их названия в фигурных скобках. Например, для типов контента: <strong>{title}</strong>, <strong>{category}</strong> и т.п. Можно использовать обработку значений, подробнее в <a target="_blank" href="https://docs.instantcms.ru/manual/settings/seo-patterns">документации</a>');
+    define('LANG_PARSER_PARSE_PATTERNS_HINT', 'Используйте поля записи, вставляя их названия в фигурных скобках. Например, для типов контента: <strong>{title}</strong>, <strong>{category}</strong> и т.п. Можно использовать обработку значений, подробнее в <a target="_blank" href="https://docs.maxicms.ru/manual/settings/seo-patterns">документации</a>');
     define('LANG_PARSER_BUILD_REDIRECT_LINK', 'При обработке типографом внешние ссылки формировать через редирект');
     define('LANG_PARSER_HTML_TEASER_LEN',    'Обрезать текст при просмотре списка');
     define('LANG_PARSER_SHOW_SHOW_MORE',     'Показывать кнопку "Подробнее"');
@@ -586,7 +586,7 @@
     define('LANG_TO',                        'до');
     define('LANG_IS_ENABLED',                'Активность');
     define('LANG_HELP',                      'Помощь');
-    define('LANG_HELP_URL',                  'http://docs.instantcms.ru');
+    define('LANG_HELP_URL',                  'https://docs.maxicms.ru');
     define('LANG_IN',                        'в');
     define('LANG_NEXT',                      'Далее');
     define('LANG_SKIP',                      'Пропустить');
@@ -761,7 +761,7 @@
     //MAIL
     define('LANG_MAIL_DEFAULT_ALT',          'Для просмотра сообщения требуется почтовый клиент с поддержкой HTML');
 
-    define('LANG_POWERED_BY_INSTANTCMS',     'Работает на <a href="https://instantcms.ru/">InstantCMS</a>');
+    define('LANG_POWERED_BY_INSTANTCMS',     'Работает на <a href="https://maxicms.ru/">MaxiCMS</a>');
     define('LANG_ICONS_BY_FATCOW',           'Иконки от <a href="https://ru.icons8.com/">Icons8</a>');
     define('LANG_SUCCESS_MSG',               'Данные успешно сохранены');
 

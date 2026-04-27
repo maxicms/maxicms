@@ -4,7 +4,7 @@ class onAdminAdminDashboardBlock extends cmsAction {
 
     public function run($options) {
 
-        // Можно отключить упоминания InstantCMS в конфиге
+        // Можно отключить упоминания MaxiCMS в конфиге
         $disable_copyright = cmsConfig::get('disable_copyright');
 
         if (!empty($options['only_titles'])) {

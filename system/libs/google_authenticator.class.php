@@ -6,7 +6,7 @@
  * @author Michael Kliewe
  * @copyright 2012 Michael Kliewe
  * @license http://www.opensource.org/licenses/bsd-license.php BSD License
- * @modified InstantSoft, https://instantcms.ru/ for InstantCMS
+ * @modified MaxiSoft, https://maxicms.ru/ for MaxiCMS
  *
  * @link http://www.phpgangsta.de/
  */

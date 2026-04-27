@@ -160,7 +160,7 @@
     define('LANG_PARSER_PLACEHOLDER',        'Field placeholder');
     define('LANG_PARSER_USE_INPUTMASK',      'Use the input mask');
     define('LANG_PARSER_INPUTMASK',          'Input mask');
-    define('LANG_PARSER_INPUTMASK_HINT',     '9 - numeric, a - alphabetical, * - alphanumeric. Read more in the <a target="_blank" href="https://docs.instantcms.ru/manual/ctypes/fields/types#строковое-поле">documentation</a>');
+    define('LANG_PARSER_INPUTMASK_HINT',     '9 - numeric, a - alphabetical, * - alphanumeric. Read more in the <a target="_blank" href="https://docs.maxicms.ru/manual/ctypes/fields/types#строковое-поле">documentation</a>');
     define('LANG_PARSER_IS_STRIP_TAGS',      'Strip all HTML tags on save');
     define('LANG_PARSER_HTML',               'HTML text');
     define('LANG_PARSER_HTML_EDITOR',        'WYSIWYG editor');
@@ -168,7 +168,7 @@
     define('LANG_PARSER_TYPOGRAPH',          'Typograph preset');
     define('LANG_PARSER_HTML_FILTERING',     'Sanitize input');
     define('LANG_PARSER_PARSE_PATTERNS',     'Process special templates');
-    define('LANG_PARSER_PARSE_PATTERNS_HINT', 'Use the entry fields by inserting their names in curly braces. For example, for content types: <strong>{title}</strong>, <strong>{category}</strong> etc. You can use the processing of values, more in <a target="_blank" href="https://docs.instantcms.ru/en/manual/settings/seo-patterns">documentation</a>');
+    define('LANG_PARSER_PARSE_PATTERNS_HINT', 'Use the entry fields by inserting their names in curly braces. For example, for content types: <strong>{title}</strong>, <strong>{category}</strong> etc. You can use the processing of values, more in <a target="_blank" href="https://docs.maxicms.ru/en/manual/settings/seo-patterns">documentation</a>');
     define('LANG_PARSER_BUILD_REDIRECT_LINK', 'External links via a redirect if sanitize input');
     define('LANG_PARSER_HTML_TEASER_LEN',    'Truncate text length in list view');
     define('LANG_PARSER_HTML_TEASER_LEN_HINT','The text will be truncated to a specified length, the formatting will be removed');
@@ -587,7 +587,7 @@
     define('LANG_TO',                        'to');
     define('LANG_IS_ENABLED',                'Enabled');
     define('LANG_HELP',                      'Help');
-    define('LANG_HELP_URL',                  'http://docs.instantcms.ru/en');
+    define('LANG_HELP_URL',                  'https://docs.maxicms.ru/en');
     define('LANG_IN',                        'in');
     define('LANG_NEXT',                      'Next');
     define('LANG_SKIP',                      'Skip');
@@ -763,7 +763,7 @@
     //MAIL
     define('LANG_MAIL_DEFAULT_ALT',          'Please view this e-mail with a client that supports HTML');
 
-    define('LANG_POWERED_BY_INSTANTCMS',     'Powered by <a href="https://instantcms.io/">InstantCMS</a>');
+    define('LANG_POWERED_BY_INSTANTCMS',     'Powered by <a href="https://maxicms.ru/">MaxiCMS</a>');
     define('LANG_ICONS_BY_FATCOW',           'Icons by <a href="https://icons8.com/">Icons8</a>');
     define('LANG_SUCCESS_MSG',               'Successfully saved');
 

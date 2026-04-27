@@ -23,7 +23,7 @@
  *
  * @author  Matthias Sommerfeld <mso@phlylabs.de>
  * @copyright 2004-2014 phlyLabs Berlin, http://phlylabs.de
- * @modified InstantSoft, https://instantcms.ru/ for InstantCMS
+ * @modified MaxiSoft, https://maxicms.ru/ for MaxiCMS
  * @version 0.10.0 2024-11-26
  */
 #[\AllowDynamicProperties]

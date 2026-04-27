@@ -3,9 +3,9 @@
 class actionAdminLoadIcmsNews extends cmsAction {
 
     private $news_link = [
-        'icms'       => 'https://api.instantcms.ru/rss/feed/pages?category=2',
-        'icms_blogs' => 'https://api.instantcms.ru/rss/feed/blogs',
-        'icms_docs'  => 'https://docs.instantcms.ru/feed.php'
+        'icms'       => 'https://api.maxicms.ru/rss/feed/pages?category=2',
+        'icms_blogs' => 'https://api.maxicms.ru/rss/feed/blogs',
+        'icms_docs'  => 'https://docs.maxicms.ru/feed.php'
     ];
 
     private $news_count = 10;

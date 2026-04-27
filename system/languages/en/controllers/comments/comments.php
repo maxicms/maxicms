@@ -10,7 +10,7 @@ define('LANG_COMMENTS_VIEW', 'View comment');
 define('LANG_COMMENTS_DELETE_CONFIRM', 'Do you really want to delete the comment? Nested comments will also be deleted.');
 define('LANG_COMMENTS_EDIT_TEXT', 'Edit the comment text');
 define('LANG_COMMENTS_LIST', 'All comments');
-define('LANG_COMMENTS_DISABLE_ICMS_COMMENTS', 'Disable InstantCMS comment system');
+define('LANG_COMMENTS_DISABLE_ICMS_COMMENTS', 'Disable MaxiCMS comment system');
 define('LANG_COMMENTS_SHOW_LIST', 'Show in the comments index list');
 define('LANG_COMMENTS_DISABLE_ICMS_COMMENTS_HINT', 'It can be useful if you want to leave a comment for third-party systems, such as FaceBook.');
 define('LANG_COMMENTS_OPT_DIM_NEGATIVE', 'Dim comments with negative rating');
